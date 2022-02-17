@@ -1,0 +1,13 @@
+1.下载目录
+2. 创建分支
+git branch -c lxf-road-202202
+3.进入分支
+git branch （查看有那些分支）
+git checkout lxf-road-202202  （进入分支）
+git status（状态）
+4.添加文件夹
+git add RoadDistressDetection_v1/
+git commit -m "根据新架构，增加上传和高精度相关功能"
+5.添加到远程
+git push origin lxf-road-202202
+
